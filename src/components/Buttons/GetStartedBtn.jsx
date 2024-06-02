@@ -1,8 +1,17 @@
 import React from "react";
 
+import { useNavigate } from "react-router-dom";
+
 function GetStartedBtn() {
+
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate("/app");
+    };
+
     return (
-        <button>Get Started</button>
+        <button onClick={handleClick}>Get Started</button>
     );
 }
 

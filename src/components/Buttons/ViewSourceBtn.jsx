@@ -5,8 +5,14 @@ import LinkArrow from "../../assets/linkArrow.svg";
 
 
 function ViewSourceBtn() {
+
+    const handleClick = () => {
+        window.open('https://www.github.com', '_blank')
+    };
+
+
     return (
-        <div className="viewsource-btn">
+        <div className="viewsource-btn" onClick={handleClick}>
             <img src={GithubLink} />
             View Source
             <img src={LinkArrow} />
