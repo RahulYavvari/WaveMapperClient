@@ -4,6 +4,7 @@ import SubHeading from "../SubHeading";
 
 import MusicListBtn from "../../assets/musicListBtn.svg";
 import MusicDrawer from "./MusicDrawer";
+import ListenCircle from "./ListenCircle";
 
 function MainApp() {
 
@@ -16,9 +17,10 @@ function MainApp() {
         <>
             <div className="mainapp-container">
                 <SubHeading />
+                <ListenCircle />
             </div>
             <img className="music-list-btn" onClick={handleMusicListBtnClick} src={MusicListBtn} />
-            <MusicDrawer/ >
+            <MusicDrawer />
         </>
     );
 }

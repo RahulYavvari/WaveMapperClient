@@ -7,7 +7,7 @@ import LinkArrow from "../../assets/linkArrow.svg";
 function ViewSourceBtn() {
 
     const handleClick = () => {
-        window.open('https://www.github.com', '_blank')
+        window.open('https://github.com/RahulYavvari/WaveMapperServer', '_blank')
     };
 
 
