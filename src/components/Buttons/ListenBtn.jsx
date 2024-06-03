@@ -1,6 +1,6 @@
 import React from "react";
 
-function ListenCircle() {
+function ListenBtn() {
     return (
         <div className="circle-container">
             <div className="fixed-circle">Listen</div>
@@ -9,4 +9,4 @@ function ListenCircle() {
     );
 }
 
-export default ListenCircle;
+export default ListenBtn;
