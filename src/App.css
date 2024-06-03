@@ -233,7 +233,7 @@
     position: absolute;
     background-color: hsl(255, 69%, 69%);
     z-index: 10;
-    animation: pulse 1.5s infinite;
+    /* animation: pulse 1.5s infinite; */
 
 }
 
