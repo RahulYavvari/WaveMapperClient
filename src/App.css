@@ -116,6 +116,7 @@
     font-family: "Leckerli One", cursive;
     color: var(--white);
     font-weight: 100;
+    user-select: none;
 }
 
 .page-container > button {
@@ -151,6 +152,7 @@
     align-items: center;
     padding-top: 2rem;
     z-index: 10;
+    padding-bottom: 10rem;
 }
 
 .music-list-btn {
@@ -250,6 +252,7 @@
     font-size: 40px;
     font-weight: 700;
     z-index: 11;
+    user-select: none;
 
     background-color: #302381;
 }
@@ -259,6 +262,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 @keyframes pulse {
@@ -271,4 +275,31 @@
     100% {
         transform: scale(1);
     }
+}
+
+.matches-container {
+    margin-top: 1rem;
+    background-color: #30279C;
+    border-radius: 12px;
+    padding: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.matches-container > h1 {
+    color: var(--white);
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.close-matches-container {
+    margin-top: 2rem;
+    color: var(--white);
+}
+
+.no-match-found {
+    margin-top: 3rem;
+    color: var(--white);
 }

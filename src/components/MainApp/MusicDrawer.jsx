@@ -3,9 +3,6 @@ import React from "react";
 import Close from "../../assets/close.svg";
 
 
-import Play from "../../assets/play.svg";
-import ThumbnailPlacholder from "../../assets/thumbnailPlaceholder.svg";
-
 
 import MusicContainer from "./MusicContainer";
 
