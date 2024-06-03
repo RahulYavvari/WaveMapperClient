@@ -9,10 +9,10 @@ function Home() {
     return (
         <div className="page-container">
             <Heading/>
-            <GetStarted />
             <div className="content-container">
                 <InstructionsContainer />
             </div>
+            <GetStarted />
             <ViewSourceBtn />
             <Footer />
         </div>
