@@ -1,13 +1,14 @@
 import React from "react";
 
+import MusicListBtn from "../../assets/musicListBtn.svg";
+
+import CloseMatchContainer from "./CloseMatchContainer";
+import MatchContainer from "./MatchContainer";
+import MusicDrawer from "./MusicDrawer";
+import NoMatchFound from "./NoMatchFound";
 import SubHeading from "../SubHeading";
 
-import MusicListBtn from "../../assets/musicListBtn.svg";
-import MusicDrawer from "./MusicDrawer";
 import ListenBtn from "../Buttons/ListenBtn";
-import MatchContainer from "./MatchContainer";
-import NoMatchFound from "./NoMatchFound";
-import CloseMatchContainer from "./CloseMatchContainer";
 
 function MainApp() {
 
