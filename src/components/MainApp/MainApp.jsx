@@ -11,7 +11,7 @@ import SubHeading from "../SubHeading";
 import ListenBtn from "../Buttons/ListenBtn";
 
 // BUG: If the user navigate to other page when the timer is alive, then it causes the timer to malfunction.
-// Solution: Create a custom hook to detect the navigation and kill the timer just before navigation.
+// SOLUTION: Create a custom hook to detect the navigation and kill the timer just before navigation.
 
 function MainApp() {
 
