@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { ReactMediaRecorder } from 'react-media-recorder';
 
 import MusicListBtn from "../../assets/musicListBtn.svg";
 
@@ -22,7 +23,7 @@ function MainApp() {
         musicDrawerHandle.classList.toggle("hide");
     };
 
-    const waitTime = 6000;
+    const waitTime = 15000;
     const [isActive, setIsActive] = useState(false);
     const [isClicked, setIsClicked] = useState(false);
     const hasPageBeenRendered = useRef(false);
